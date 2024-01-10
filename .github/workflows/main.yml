@@ -22,7 +22,7 @@ jobs:
         python-version: "3.12"
     - name: Install dependencies
       run: |
-        pip install smtplib
+        pip install secure-smtplib
     - name: Run 
       run: |
         python main.py
